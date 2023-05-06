@@ -1,4 +1,5 @@
-// Questions will be asked
+// Questions that will be asked
+// Questions are from Malnotkun II 5. heimaverkefni forsetningar, fallstjórn 2023
 const Questions = [{
 		id: 0,
 		q: "Ég efast __ að ég komist í bíó í kvöld.",
@@ -39,6 +40,7 @@ const Questions = [{
 var start = true;
 
 // Iterate
+// TODO: Make it not preselect an option on a new question.
 function iterate(id) {
 
 	// Getting the result display section
